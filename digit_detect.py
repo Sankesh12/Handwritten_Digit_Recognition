@@ -8,6 +8,12 @@ import joblib
 model = joblib.load("model.pkl")
 scaler = joblib.load("scaler.pkl")
 
+st.set_page_config(
+    page_title="Handwritten Digit Recognizer",
+    page_icon="🖌",
+    layout="centered"
+)
+
 st.title("🖌 Handwritten Digit Recognizer")
 
 st.write("Draw a digit (0–9) below and click Predict")

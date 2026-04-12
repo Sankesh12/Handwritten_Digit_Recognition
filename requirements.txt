@@ -3,3 +3,4 @@ numpy
 matplotlib
 joblib
 Pillow
+streamlit-drawable-canvas

@@ -4,8 +4,7 @@ from PIL import Image
 import numpy as np
 import joblib
 
-# Load model & scaler
-model = joblib.load("model.pkl")
+# Load scaler
 scaler = joblib.load("scaler.pkl")
 
 st.set_page_config(
